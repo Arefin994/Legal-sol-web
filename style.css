@@ -1,7 +1,26 @@
 *{
     font-family: Poppins;
 }
+body{
+    margin: 0px 200px;
+}
 .bg-brown{
     background-color: #B68C5A;
     color: white;
+}
+
+.fa-circle-arrow-right{
+    color: #B68C5A;
+}
+
+.card:hover{
+    background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
+}
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0px 30px;
+    }
+    text{
+        font-size: small ;
+    }
 }
