@@ -1,7 +1,14 @@
 *{
     font-family: Poppins;
 }
-body{
+html,body {
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
+    
+}
+section{
     margin: 0px 200px;
 }
 .bg-brown{
@@ -16,11 +23,10 @@ body{
 .card:hover{
     background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%);
 }
+
 @media screen and (max-width: 576px) {
-    body{
-        margin: 0px 30px;
+    section{
+        margin: 0px 5px;
     }
-    text{
-        font-size: small ;
-    }
+    
 }
